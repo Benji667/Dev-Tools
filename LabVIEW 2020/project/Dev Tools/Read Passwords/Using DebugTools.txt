@@ -1,0 +1,4 @@
+To use the Debug Tools, copy the folder "Debug Tools" into your LabVIEW\project folder
+and restart LabVIEW.
+
+-Joel

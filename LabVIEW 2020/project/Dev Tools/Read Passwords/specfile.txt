@@ -1,0 +1,34 @@
+*Simulation Interface Toolkit 3.0 Spec File
+*
+*This file contains a list of Simulink blocks and their relevant parameters.  Use this file to reduce the amount of "noise" present in the Model tree in the Simulation Interface Toolkit.  Use the following format for adding and editing block information:
+*
+*BlockName:DesiredParam1,DesiredParam2,etc
+*
+*Lines that begin with an asterisk are ignored.  If you specify a block name, but no desired parameters, that block will not appear in the Model tree (see the "Demux" block below).  If you are specifying several desired parameters for a single block, you must type them all on a single line (see the "DiscreteIntegrator" block below).  You cannot separate parameters for a single block with the "Enter" key.  Use "word wrapping" in your text editor if you want the file to be more readable.  The only time you should use the "Enter" key is when you are separating one block from the next.
+*
+*
+*
+Constant:Value
+Demux:
+DiscreteIntegrator:IntegratorMethod,ExternalReset,InitialConditionSource,InitialCondition,LimitOutput,UpperSaturationLimit,LowerSaturationLimit,SampleTime
+DiscretePulseGenerator:PulseType,Amplitude,Period,PulseWidth,PhaseDelay,SampleTime
+DiscreteTransferFcn:Numerator,Denominator
+Gain:Gain
+Inport:
+Lookup:InputValues,OutputValues
+Math:Operator
+MultiPortSwitch:
+Mux:
+RelationalOperator:Operator
+Outport:
+Product:
+S-Function:Parameters
+Saturate:UpperLimit,LowerLimit
+Scope:
+Sin:Amplitude,Frequency,Bias,Phase
+SubSystem:
+Sum:
+Terminator:
+TriggerPort:TriggerType
+Trigonometry:Operator
+UnitDelay:X0,SampleTime
