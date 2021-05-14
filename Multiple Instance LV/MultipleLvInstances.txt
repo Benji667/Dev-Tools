@@ -1,0 +1,4 @@
+SUBST L: "C:\Program Files (x86)\National Instruments\LabVIEW 2017"
+
+L:\LabVIEW.exe
+SUBST L: /D
